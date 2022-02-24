@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+    background-image: url('https://w0.peakpx.com/wallpaper/297/592/HD-wallpaper-hands-on-keyboard-exoskeleton-darkness-computer-typing-3d-art-black-keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.login-from{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+.login-from h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.login-from p{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.login-from input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-from button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 15px 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+.login-from button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
